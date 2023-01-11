@@ -1,4 +1,4 @@
-function threeSum(arr, target) {
+function threeSum(nums, target) {
   nums.sort((a, b) => a - b); // sort the array
 
     let closestSum = Infinity;
